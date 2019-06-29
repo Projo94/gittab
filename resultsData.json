@@ -1,0 +1,65 @@
+[
+  {
+    "TxId": "5ffdae1e9f4fc224f27f0629f36c4b912c57e09d0f0faf6ba88fd933cd219ede",
+    "Timestamp": "2019-06-21T06:56:20.341Z",
+    "IsDelete": "false",
+    "Value": {
+      "class": "org.roamnet.roamingrecord",
+      "key": "\"9993\":\"00003\"",
+      "currentState": 1,
+      "IMSI": "777112345678909",
+      "MSISDN": "55641115921",
+      "destination": "381644002269",
+      "typeofevent": "MO-SMS",
+      "VPLMN": "9993",
+      "callreferenceID": "00003",
+      "HPLMN": "7771",
+      "eventStartTime": "2019-05-05  11:34",
+      "creator": "User1@org1.example.com"
+    }
+  },
+  {
+    "TxId": "6b1f636e2c092f1eeca76aec019ae9a6d1ee8cd0a1f68f3b653ac3529beed697",
+    "Timestamp": "2019-06-21T06:56:37.323Z",
+    "IsDelete": "false",
+    "Value": {
+      "class": "org.roamnet.roamingrecord",
+      "key": "\"9993\":\"00003\"",
+      "currentState": 2,
+      "HPLMN": "7771",
+      "IMSI": "777112345678909",
+      "MSISDN": "55641115921",
+      "VPLMN": "9993",
+      "callreferenceID": "00003",
+      "creator": "User1@org1.example.com",
+      "destination": "381644002269",
+      "eventStartTime": "2019-05-05  11:34",
+      "typeofevent": "MO-SMS",
+      "eventduration": "",
+      "chargeableunits": "1",
+      "CauseForTerm": "00"
+    }
+  },
+  {
+    "TxId": "3a875d3ef99522f196cb88a0cf4c6ce5d38f42777a03c3dedaf97829af709d47",
+    "Timestamp": "2019-06-21T06:57:27.827Z",
+    "IsDelete": "false",
+    "Value": {
+      "class": "org.roamnet.roamingrecord",
+      "key": "\"9993\":\"00003\"",
+      "currentState": 3,
+      "CauseForTerm": "00",
+      "HPLMN": "7771",
+      "IMSI": "777112345678909",
+      "MSISDN": "55641115921",
+      "VPLMN": "9993",
+      "callreferenceID": "00003",
+      "chargeableunits": "1",
+      "creator": "Admin@org1.example.com",
+      "destination": "381644002269",
+      "eventStartTime": "2019-05-05  11:34",
+      "eventduration": "",
+      "typeofevent": "MO-SMS"
+    }
+  }
+]
